@@ -1,0 +1,27 @@
+{
+  "name": "warden-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@mediapipe/face_mesh": "0.4.1633559619",
+    "@tensorflow-models/face-landmarks-detection": "1.0.2",
+    "@tensorflow/tfjs-backend-webgl": "4.21.0",
+    "@tensorflow/tfjs-core": "4.21.0",
+    "@tensorflow/tfjs": "4.21.0",
+    "@tauri-apps/api": "^2.0.0-beta.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0-beta.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
